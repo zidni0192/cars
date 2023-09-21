@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.carRentalTable {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.carRentalTable th,
+.carRentalTable td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.carRentalTable th {
+    background-color: #ccc;
+    text-align: center;
+}
+
+.carRentalTable tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.carRentalTable .btn-remove,
+.carRentalTable .btn-update {
+    margin-right: 5px;
+}
+
+.carRentalTable .btn-remove {
+    background-color: #f00;
+    color: #fff;
+}
+
+.carRentalTable .btn-update {
+    background-color: #000;
+    color: #fff;
+}
